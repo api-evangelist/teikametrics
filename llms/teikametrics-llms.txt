@@ -1,0 +1,124 @@
+# Teikametrics Help Center
+
+> Advice and answers from the Teikametrics team
+
+## Teikametrics: Getting Started Guide
+
+- [Onboarding to Teikametrics](https://help.teikametrics.com/en/articles/8340776-onboarding-to-teikametrics.md): Signing up and getting started steps
+- [Getting Started with your Risk-Free Trial](https://help.teikametrics.com/en/articles/8349362-getting-started-with-your-risk-free-trial.md): Follow these steps to get set up for success in your first month
+- [What to expect after launching your first AI-Powered campaign with Teikametrics: Getting Started Guide](https://help.teikametrics.com/en/articles/8358880-what-to-expect-after-launching-your-first-ai-powered-campaign-with-teikametrics-getting-started-guide.md)
+- [Teikametrics Weekly Update Email](https://help.teikametrics.com/en/articles/8549007-teikametrics-weekly-update-email.md): Stay on top of performance with Weekly Summary Emails from Teikametrics.
+- [Email Preferences](https://help.teikametrics.com/en/articles/8881908-email-preferences.md): Customize your email notification experience in Teikametrics
+- [How to View Performance Trends & Metrics for Campaigns, Ad Groups and Products](https://help.teikametrics.com/en/articles/9016286-how-to-view-performance-trends-metrics-for-campaigns-ad-groups-and-products.md): Use our slide-out feature across Teikametrics' platform to view trends, performance data, and other important KPIs!
+- [Find your Hidden Profits: Carbon6 & Teikametrics Partnership](https://help.teikametrics.com/en/articles/10504830-find-your-hidden-profits-carbon6-teikametrics-partnership.md): Refunds Recovery Partnership
+- [Teikametrics Platform Overview](https://help.teikametrics.com/en/articles/14140179-teikametrics-platform-overview.md): This document provides a high-level walkthrough of the Teikametrics application, highlighting the four core areas—RE Catalog, RE Ads, RE Insights, and RE Inventory—as well as key AI-powered tools t...
+- [What's the difference between 3P and 1P?](https://help.teikametrics.com/en/articles/6339664-what-s-the-difference-between-3p-and-1p.md)
+- [What is Amazon DSP?](https://help.teikametrics.com/en/articles/9274140-what-is-amazon-dsp.md)
+- [Teikametrics : Supported Ad Types for Amazon and Walmart](https://help.teikametrics.com/en/articles/9688823-teikametrics-supported-ad-types-for-amazon-and-walmart.md)
+- [Introducing the new ARI navigation](https://help.teikametrics.com/en/articles/13297249-introducing-the-new-ari-navigation.md): Updated product navigation
+
+## Advertising Basics
+
+- [Introduction to Amazon Advertising](https://help.teikametrics.com/en/articles/9211968-introduction-to-amazon-advertising.md): Learn the ins and outs of Amazon Advertising with this 101 guide.
+- [Introduction to Walmart Advertising](https://help.teikametrics.com/en/articles/9211994-introduction-to-walmart-advertising.md): A definitive guide for Walmart sellers.
+- [Maximizing Your Brand Presence: The Power of Branded Keywords](https://help.teikametrics.com/en/articles/9212058-maximizing-your-brand-presence-the-power-of-branded-keywords.md): Establishing a brand presence is crucial for success in the competitive ECommerce landscape.
+- [Mastering Amazon Sponsored Products Campaigns: Strategies and Teikametrics Smart Campaigns](https://help.teikametrics.com/en/articles/9212665-mastering-amazon-sponsored-products-campaigns-strategies-and-teikametrics-smart-campaigns.md): Optimize your SP campaigns to maximize your advertising ROI and stay ahead of the competition
+- [Campaigns Overview: What are Auto and Manual Campaigns?](https://help.teikametrics.com/en/articles/9288854-campaigns-overview-what-are-auto-and-manual-campaigns.md): Each campaign type serves a unique purpose and can be used to achieve specific advertising goals.
+
+## Compass
+
+- [Getting Started with the Compass Homepage](https://help.teikametrics.com/en/articles/6080230-getting-started-with-the-compass-homepage.md)
+- [Understanding Benchmark Data in Compass](https://help.teikametrics.com/en/articles/8400013-understanding-benchmark-data-in-compass.md): This article explores the Teikametrics Index, enabling users to compare ad metrics data with Teikametrics peers.
+- [Compass + AI Value](https://help.teikametrics.com/en/articles/10722047-compass-ai-value.md): Save Money, Grow Ad Sales, and Save time with Teikametrics AI Platform
+- [Performance Data Reporting Availability from Channels](https://help.teikametrics.com/en/articles/10280112-performance-data-reporting-availability-from-channels.md): Each channel and connection type has a delay in providing performance data. Below is a summary of those delays.
+
+## Recommendation Hub
+
+- [Intro to Recommendations](https://help.teikametrics.com/en/articles/8307966-intro-to-recommendations.md)
+- [Recommendation details - Enable Smart Campaign Goal Based Bidding](https://help.teikametrics.com/en/articles/6804162-recommendation-details-enable-smart-campaign-goal-based-bidding.md): Providing high quality recommendations when enabling automated bidding
+- [Adding COGS for SKUs with unknown profitability](https://help.teikametrics.com/en/articles/8308443-adding-cogs-for-skus-with-unknown-profitability.md): Learn more about how Teikametrics uses your COGS to calculate profitability metrics
+- [Start Selling on Walmart](https://help.teikametrics.com/en/articles/8461641-start-selling-on-walmart.md)
+
+## Product Catalog
+
+- [Campaign, Ad Groups, and Products Performance Trends and Metrics \(Daily/Weekly/Hourly\)](https://help.teikametrics.com/en/articles/9016248-campaign-ad-groups-and-products-performance-trends-and-metrics-daily-weekly-hourly.md)
+
+## Inventory Optimization
+
+- [Inventory Optimization: Where do I start?](https://help.teikametrics.com/en/articles/9425974-inventory-optimization-where-do-i-start.md): How do I start using the tool?
+- [Using Inventory Insights to influence your Business Strategy](https://help.teikametrics.com/en/articles/9623754-using-inventory-insights-to-influence-your-business-strategy.md): How do you change your business strategy with Inventory metrics
+- [Inventory Dashboard: Inventory Health & Metrics Overview](https://help.teikametrics.com/en/articles/8618423-inventory-dashboard-inventory-health-metrics-overview.md): Understanding the Inventory Dashboard and its key metrics
+- [Inventory Optimization Email Notifications & Management](https://help.teikametrics.com/en/articles/9028416-inventory-optimization-email-notifications-management.md)
+- [Inventory: Out of Stock & Estimated Missed Sales](https://help.teikametrics.com/en/articles/8618441-inventory-out-of-stock-estimated-missed-sales.md): Understand how missed sales is calculated for your out of stock products
+- [Inventory: Unsold Inventory in L90 Days / Excess Stock](https://help.teikametrics.com/en/articles/8618450-inventory-unsold-inventory-in-l90-days-excess-stock.md): What does it mean to have Excess stock?
+- [Inventory: Demand Forecast](https://help.teikametrics.com/en/articles/8618459-inventory-demand-forecast.md)
+- [Inventory Insights: Rate of Sale](https://help.teikametrics.com/en/articles/8618465-inventory-insights-rate-of-sale.md)
+- [Inventory Insights: Stockout & Reorder](https://help.teikametrics.com/en/articles/8618493-inventory-insights-stockout-reorder.md)
+- [Inventory is included for free!](https://help.teikametrics.com/en/articles/9274573-inventory-is-included-for-free.md): For no additional cost, FBA / WFS products get inventory optimization!
+- [Inventory Optimization: Are you ready for Prime day?](https://help.teikametrics.com/en/articles/9437654-inventory-optimization-are-you-ready-for-prime-day.md)
+- [Inventory - Video & Article Links Collection](https://help.teikametrics.com/en/articles/9456763-inventory-video-article-links-collection.md)
+- [Inventory Optimization: AMZ & WMT vs Teikametrics Data](https://help.teikametrics.com/en/articles/9554672-inventory-optimization-amz-wmt-vs-teikametrics-data.md): Understanding the comparison of calculations and features between AMZ, WMT and Teikametrics
+- [Inventory Rec Hub Cards](https://help.teikametrics.com/en/articles/9976581-inventory-rec-hub-cards.md)
+- [High or Low Inventory + Advertising Strategy](https://help.teikametrics.com/en/articles/9976617-high-or-low-inventory-advertising-strategy.md)
+
+## Advertising Optimization
+
+- [Multichannel Advertising Optimization Dashboard: Navigating Your Advertising Performance](https://help.teikametrics.com/en/articles/8751428-multichannel-advertising-optimization-dashboard-navigating-your-advertising-performance.md)
+- [Timezone Preferences](https://help.teikametrics.com/en/articles/10671924-timezone-preferences.md): Set your preferred timezone for each merchant for custom scheduling
+
+## ARI Catalog
+
+- [Getting Started with ARI Catalog Recommendations](https://help.teikametrics.com/en/articles/14848105-getting-started-with-ari-catalog-recommendations.md): See a summary of your Smart Pages and take action on AI-driven recommendations — all in one place
+
+## Market Intelligence 
+
+- [🎥: Market Intelligence Dashboard](https://help.teikametrics.com/en/articles/8444407-market-intelligence-dashboard.md)
+- [🎥: Market Intelligence - Terms Tracker](https://help.teikametrics.com/en/articles/8444409-market-intelligence-terms-tracker.md)
+
+## Business Intelligence
+
+- [Business Intelligence - Custom In-App Dashboards](https://help.teikametrics.com/en/articles/8309095-business-intelligence-custom-in-app-dashboards.md)
+- [Amazon Marketing Cloud \(AMC\)](https://help.teikametrics.com/en/articles/9375609-amazon-marketing-cloud-amc.md)
+- [Unlock your AMC Instance](https://help.teikametrics.com/en/articles/9648760-unlock-your-amc-instance.md)
+- [Agency Edition - Business Intelligence - Custom In-App Dashboards](https://help.teikametrics.com/en/articles/9655039-agency-edition-business-intelligence-custom-in-app-dashboards.md): How to create customized in-app dashboards for clients
+- [Walmart Display Self-Serve \(DSS\) and In-App Dashboards](https://help.teikametrics.com/en/articles/9768476-walmart-display-self-serve-dss-and-in-app-dashboards.md)
+- [ARI Assistant Chat - Conversational AI Chat with your Search Data \(Beta\)](https://help.teikametrics.com/en/articles/13431515-ari-assistant-chat-conversational-ai-chat-with-your-search-data-beta.md): Chat with you search ads data with Ask ARI
+
+## TikTok Shop 
+
+- [Getting Started with TikTok Shop](https://help.teikametrics.com/en/articles/10349753-getting-started-with-tiktok-shop.md): Learn how to set up your TikTok Shop with this step-by-step guide.
+- [Introduction to TikTok Shop Ads](https://help.teikametrics.com/en/articles/10349761-introduction-to-tiktok-shop-ads.md): This guide will provide an overview of TikTok Shop Ads, their benefits, and how they can help you grow your business.
+- [How to Use the TikTok Shop Ads Manager](https://help.teikametrics.com/en/articles/10349767-how-to-use-the-tiktok-shop-ads-manager.md): Learn how to view and analyze all your TikTok Shop Ads metrics and GMV Max campaigns in one place with the TikTok Shop Ads Manager.
+- [How to Create TikTok Shop Video Shopping Ads](https://help.teikametrics.com/en/articles/10349776-how-to-create-tiktok-shop-video-shopping-ads.md): Launch engaging Video Shopping Ads for your TikTok Shop with the new Campaign Creator tool.
+- [How to Connect Your TikTok Ads Data to the Teikametrics Platform](https://help.teikametrics.com/en/articles/10406953-how-to-connect-your-tiktok-ads-data-to-the-teikametrics-platform.md): Learn how to connect your TikTok Ads account to Teikametrics.
+- [What is GMV Max Campaign, and How to Create One?](https://help.teikametrics.com/en/articles/12641492-what-is-gmv-max-campaign-and-how-to-create-one.md)
+- [TikTok Promotion Days Calendar](https://help.teikametrics.com/en/articles/14287762-tiktok-promotion-days-calendar.md): Access the TikTok Shop Promotion Days calendar to see when high-traffic events occur throughout the year.
+- [TikTok Business Intelligence: Overview & How to Use It](https://help.teikametrics.com/en/articles/13688730-tiktok-business-intelligence-overview-how-to-use-it.md): Connect activity, affiliates, and content to real TikTok Shop revenue.
+- [Amazon Data Overlays for TikTok Business Intelligence](https://help.teikametrics.com/en/articles/15364285-amazon-data-overlays-for-tiktok-business-intelligence.md): View your Amazon and TikTok data together — and start connecting the dots between your TikTok activity and Amazon performance.
+
+## Account and Billing
+
+- [Cancel or Downgrade Account](https://help.teikametrics.com/en/articles/5581119-cancel-or-downgrade-account.md): Below you will find details on how to downgrade or cancel your Teikametrics account.
+
+## Teikametrics for Agencies
+
+- [Teikametrics Agency Edition](https://help.teikametrics.com/en/articles/8441183-teikametrics-agency-edition.md)
+- [Agency Onboarding - Client Connections](https://help.teikametrics.com/en/articles/9358166-agency-onboarding-client-connections.md): Detailed instructions for getting started and connecting your clients' data specific to Teikametrics Agency customers.
+
+##  如何在Flywheel关联您的广告/产品数据
+
+- [账单、方案与价格信息](https://help.teikametrics.com/en/articles/12808991-账单-方案与价格信息.md)
+
+## Feed Optimization
+
+- [Introducing Multichannel Feed Optimization - Beta](https://help.teikametrics.com/en/articles/9939755-introducing-multichannel-feed-optimization-beta.md): Drive your marketplace assortment strategy and enhance the quality of your listings to unlock the full potential of your product catalog.
+
+## Marketplace Onboarding Steps
+
+- [Amazon Listings](https://help.teikametrics.com/en/articles/13333746-amazon-listings.md)
+
+## Market IQ
+
+- [Market IQ: ARI Assistant](https://help.teikametrics.com/en/articles/13393870-market-iq-ari-assistant.md): Overview of ARI Insights for Market IQ
+- [Market IQ: Page 1 - Competitive Rank](https://help.teikametrics.com/en/articles/13402819-market-iq-page-1-competitive-rank.md): Search Rank Over Time
+- [ARI Insights - Market IQ Overview](https://help.teikametrics.com/en/articles/13404049-ari-insights-market-iq-overview.md): Automated Competitor Insights and Recommendations

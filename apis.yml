@@ -1,17 +1,39 @@
 aid: teikametrics
 name: Teikametrics
-description: 'Teikametrics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Teikametrics is a Boston-based commerce optimization company founded
+  by Alasdair McLean-Foreman that builds ARI (Artificial Retail Intelligence), an AI
+  platform for brands and sellers operating on Amazon, Walmart and TikTok Shop. The
+  platform ingests advertising, catalog, sales and inventory data pulled from marketplace
+  APIs (Amazon Advertising, Amazon Selling Partner, Walmart Marketplace and Ads, TikTok
+  Shop) and applies retail-trained models to bid management, keyword harvesting, listing
+  and feed optimization, demand forecasting and profit-based reporting. Product surfaces
+  include Compass dashboards, the Recommendation Hub, Product Catalog, Advertising
+  Optimization, Inventory Optimization, Market IQ and Business Intelligence, plus an
+  Agency Edition with nested client accounts. Teikametrics is an API consumer rather
+  than an API producer: as of this profiling pass it publishes no public developer
+  portal, no OpenAPI or other machine-readable contract, and no customer-facing API
+  reference — integration happens through OAuth-style marketplace channel connections
+  made inside the application.'
+image: https://www.teikametrics.com/wp-content/uploads/2026/01/Teikametrics-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/teikametrics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass-no-public-api
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Advertising
+- Retail
+- E-Commerce
+- Marketplaces
+- Artificial Intelligence
+- Analytics
+- Amazon
+- Walmart
+- Inventory
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,57 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/teikametrics-domain-security.yml
 - type: Website
+  url: https://www.teikametrics.com/
+- type: Documentation
+  url: https://help.teikametrics.com/en/
+- type: Support
+  url: https://help.teikametrics.com/en/
+- type: HelpCenter
+  url: https://help.teikametrics.com/en/
+- type: Blog
+  url: https://www.teikametrics.com/blog/
+- type: Pricing
+  url: https://www.teikametrics.com/pricing/
+- type: SignUp
+  url: https://app.teikametrics.com/
+- type: Login
+  url: https://app.teikametrics.com/
+- type: TermsOfService
+  url: https://www.teikametrics.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://www.teikametrics.com/privacy/
+- type: GitHubOrganization
+  url: https://github.com/teikametrics
+- type: Careers
+  url: https://www.teikametrics.com/careers/
+- type: Contact
+  url: https://www.teikametrics.com/contact-us/
+- type: About
+  url: https://www.teikametrics.com/company/
+- type: SecondaryMarket
   url: https://forgeglobal.com/teikametrics_stock/
+- type: LLMsTxt
+  url: llms/teikametrics-llms.txt
+- type: Packages
+  url: packages/teikametrics-packages.yml
+x-enrichment:
+  date: '2026-08-02'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
+x-contract-discovery:
+  date: '2026-08-02'
+  result: no-machine-readable-contract
+  detail: well-known/teikametrics-well-known.yml
+  note: >-
+    Teikametrics is an API consumer (Amazon Advertising, Amazon SP-API, Walmart
+    Marketplace/Ads, TikTok Shop), not an API producer. No developer portal, API
+    reference, OpenAPI/Swagger/GraphQL/AsyncAPI/gRPC contract, MCP server or A2A agent
+    card was found on any host; api./developer./docs.teikametrics.com are NXDOMAIN.
+    Per the pipeline's no-fabrication rule, no spec-dependent artifacts (openapi,
+    overlays, errors, conventions, authentication, scopes, skills, mcp, crosswalk,
+    data-model, agentic-access, arazzo) were authored, and no a2a/ artifact was
+    authored on the provider's behalf.

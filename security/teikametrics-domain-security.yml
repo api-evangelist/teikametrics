@@ -1,0 +1,37 @@
+generated: '2026-08-02'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.teikametrics.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  2 19:38:45 2026 GMT
+  hsts: false
+  role: website
+- host: help.teikametrics.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 26 23:59:59 2026 GMT
+  hsts: false
+  role: documentation
+  note: Intercom-hosted help centre (CNAME d3noi0rmtp7b0c.cloudfront.net).
+- host: app.teikametrics.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 26 23:59:59 2026 GMT
+  hsts: false
+  role: application
+  note: CloudFront-fronted SPA (app.production.teikametrics.com).
+findings:
+- No HSTS on any Teikametrics host (website, help centre or application).
+- No CAA record on teikametrics.com — certificate issuance is unrestricted.
+- DNSSEC not enabled on teikametrics.com.
+- DMARC present but at p=quarantine rather than p=reject.
+- No API host exists — api./developer./docs.teikametrics.com are all NXDOMAIN.
+domains:
+- domain: teikametrics.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

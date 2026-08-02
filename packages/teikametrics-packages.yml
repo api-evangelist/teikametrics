@@ -1,0 +1,63 @@
+generated: '2026-08-02'
+method: searched
+source: npm registry search, PyPI, RubyGems, Packagist, crates.io, NuGet, github.com/teikametrics
+summary: >-
+  Teikametrics publishes NO client SDK for its own platform, because it publishes no
+  public API. The only first-party packages on any public registry are internal
+  front-end engineering tooling published from the github.com/teikametrics org. They
+  are recorded here for completeness and are explicitly NOT API client libraries — no
+  `SDKs` pointer is wired in apis.yml, since the sdk_count check must not be satisfied
+  by an eslint config.
+registries_searched:
+- registry: npm
+  query: teikametrics
+  hits: 2
+- registry: pypi
+  query: teikametrics
+  hits: 0
+- registry: rubygems
+  query: teikametrics
+  hits: 0
+- registry: packagist
+  query: teikametrics
+  hits: 0
+- registry: crates.io
+  query: teikametrics
+  hits: 0
+- registry: nuget
+  query: teikametrics
+  hits: 0
+- registry: maven-central
+  query: teikametrics
+  hits: 0
+- registry: pkg.go.dev
+  query: teikametrics
+  hits: 0
+packages:
+- language: javascript
+  registry: npm
+  name: '@teikametrics/react-infinite-calendar'
+  url: https://www.npmjs.com/package/@teikametrics/react-infinite-calendar
+  install: npm install @teikametrics/react-infinite-calendar
+  version: 2.6.0
+  last_published: '2024-10-14'
+  repository: https://github.com/teikametrics/react-infinite-calendar
+  official: true
+  kind: ui-component-fork
+  api_client: false
+  note: Teikametrics fork of the community react-infinite-calendar date picker. Not
+    an API client.
+- language: javascript
+  registry: npm
+  name: eslint-config-tm
+  url: https://www.npmjs.com/package/eslint-config-tm
+  install: npm install eslint-config-tm
+  version: 0.0.21
+  last_published: '2022-05-01'
+  repository: https://github.com/teikametrics/eslint-config-tm
+  official: true
+  kind: lint-config
+  api_client: false
+  note: ESLint/Prettier configuration for Teikametrics JavaScript/TypeScript projects.
+    Not an API client.
+sdk_count: 0

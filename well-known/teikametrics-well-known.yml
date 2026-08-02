@@ -1,0 +1,144 @@
+generated: '2026-08-02'
+method: probed
+source: live HTTPS probes of every Teikametrics host discovered in apis.yml
+summary: >-
+  No first-party Teikametrics /.well-known/ document was found on any host. The
+  marketing site (www.teikametrics.com, WordPress/WP Engine) returns 404 for every
+  probed path. The application host (app.teikametrics.com) is a single-page app whose
+  catch-all route answers HTTP 200 with an HTML shell for EVERY /.well-known/* path —
+  those 200s are false positives and are recorded as such, not as discovery documents.
+  The one real 200 with a non-HTML body is an RFC 9116 security.txt served on the
+  Intercom-hosted help centre; its own Canonical field points at
+  https://app.intercom.com/.well-known/security.txt, so it is Intercom's disclosure
+  policy, not Teikametrics'. It is saved as evidence only and deliberately carries no
+  SecurityTxt / Security / VulnerabilityDisclosure pointer in apis.yml.
+hosts:
+- host: www.teikametrics.com
+  role: website
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: help.teikametrics.com
+  role: documentation
+  platform: Intercom (CNAME d3noi0rmtp7b0c.cloudfront.net)
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: teikametrics-help-intercom-security.txt
+    third_party: intercom
+    canonical_declared: https://app.intercom.com/.well-known/security.txt
+    note: >-
+      Intercom platform boilerplate served on the Teikametrics help subdomain.
+      Contact is security@intercom.com / bugcrowd.com/intercom. NOT a Teikametrics
+      vulnerability disclosure programme — no pointer wired.
+  - path: /llms.txt
+    status: 200
+    file: ../llms/teikametrics-llms.txt
+    note: Real first-party llms.txt for the Teikametrics Help Center (Intercom-generated).
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+- host: app.teikametrics.com
+  role: application
+  platform: SPA behind CloudFront (app.production.teikametrics.com)
+  spa_catch_all: true
+  note: >-
+    Every path below returned HTTP 200 with an identical `<!doctype html>` SPA shell,
+    including paths that cannot exist. Treated as MISSES per the pipeline's HTML-body
+    rejection rule.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    body: html-spa-shell
+    accepted: false
+  - path: /.well-known/agent-card.json
+    status: 200
+    body: html-spa-shell
+    accepted: false
+  - path: /.well-known/agent.json
+    status: 200
+    body: html-spa-shell
+    accepted: false
+  - path: /.well-known/openid-configuration
+    status: 200
+    body: html-spa-shell
+    accepted: false
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    body: html-spa-shell
+    accepted: false
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    body: html-spa-shell
+    accepted: false
+  - path: /.well-known/api-catalog
+    status: 200
+    body: html-spa-shell
+    accepted: false
+contract_discovery:
+  ran: '2026-08-02'
+  result: no-machine-readable-contract
+  conclusion: >-
+    Teikametrics is an API CONSUMER, not an API producer. Its platform is built on the
+    Amazon Advertising API, Amazon Selling Partner API, Walmart Marketplace/Advertising
+    APIs and TikTok Shop APIs, which customers connect through in-app OAuth channel
+    connections. As of this pass Teikametrics publishes no developer portal, no API
+    reference, no OpenAPI/Swagger/GraphQL/AsyncAPI/gRPC contract and no MCP server. The
+    124-line help-centre llms.txt covering 70 articles contains zero occurrences of
+    "API", "token", "webhook" or "endpoint" in a developer-integration sense.
+  probes:
+  - surface: REST OpenAPI
+    paths_tried: [/openapi.json, /openapi.yaml, /swagger.json, /v1/openapi.json, /api-docs,
+      /docs, /redoc]
+    hosts_tried: [www.teikametrics.com, app.teikametrics.com, help.teikametrics.com,
+      api.teikametrics.com, developer.teikametrics.com, docs.teikametrics.com]
+    result: none
+    note: >-
+      api.teikametrics.com, developer.teikametrics.com and docs.teikametrics.com have
+      NO DNS record (NXDOMAIN) — there is no API host to probe. www returns 404;
+      app returns the SPA shell.
+  - surface: GraphQL introspection
+    paths_tried: [/graphql]
+    result: none
+    note: app.teikametrics.com/graphql returns the SPA HTML shell, not a GraphQL endpoint.
+  - surface: MCP tools/list
+    result: none
+    note: No hosted or remote MCP server published or discoverable.
+  - surface: A2A Agent Card
+    paths_tried: [/.well-known/agent-card.json, /.well-known/agent.json]
+    hosts_tried: [www.teikametrics.com, help.teikametrics.com, app.teikametrics.com]
+    result: none
+    note: >-
+      No card. The app-host 200s are the documented SPA catch-all false positive
+      (HTML body). Per the pipeline contract, NO a2a/ artifact was authored.
+  - surface: Published .proto / gRPC
+    hosts_tried: [github.com/teikametrics, buf.build]
+    result: none
+  - surface: AsyncAPI / webhooks
+    result: none
+    note: No event, streaming or webhook surface documented for customers.
