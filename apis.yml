@@ -14,6 +14,17 @@ description: 'Teikametrics is a Boston-based commerce optimization company found
   portal, no OpenAPI or other machine-readable contract, and no customer-facing API
   reference — integration happens through OAuth-style marketplace channel connections
   made inside the application.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.teikametrics.com/wp-content/uploads/2026/01/Teikametrics-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/teikametrics/refs/heads/main/apis.yml
 x-type: company
