@@ -1,0 +1,49 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.teikametrics.com/pricing/
+sources:
+- https://www.teikametrics.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Tiered subscription with Essentials priced numerically; Advanced/Enterprise custom plus 3% of ad
+  spend over $10K.
+plan_count: 4
+currency: USD
+plans:
+- name: Essentials (Annual)
+  price_text: $149 / month
+  price: 149
+  currency: USD
+  period: month
+  unit: subscription
+  included_quota: 'Up to $10K/mo in ad spend; ARI strategic suite: Ads, Catalog, Inventory, Insights;
+    Refunds Recovery; Free Trial available'
+- name: Essentials (Monthly)
+  price_text: $179 / month
+  price: 179
+  currency: USD
+  period: month
+  unit: subscription
+  included_quota: Up to $10K/mo in ad spend
+- name: Advanced
+  price_text: Custom Pricing +3% of ad spend over $10K
+  period: month
+  unit: ad spend
+  included_quota: Over $10K/mo in ad spend
+  overage: +3% of ad spend over $10K
+- name: Enterprise
+  price_text: Custom Pricing +3% of ad spend over $10K
+  period: month
+  unit: ad spend
+  included_quota: Over $100K/mo in ad spend; Managed Services
+  overage: +3% of ad spend over $10K
