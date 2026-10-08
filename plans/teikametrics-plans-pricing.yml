@@ -47,3 +47,44 @@ plans:
   unit: ad spend
   included_quota: Over $100K/mo in ad spend; Managed Services
   overage: +3% of ad spend over $10K
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  - subscription
+  units:
+  - period
+  plans:
+  - name: Essentials (Annual)
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods:
+    - month
+  - name: Essentials (Monthly)
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods:
+    - month
+  - name: Advanced
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Enterprise
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
