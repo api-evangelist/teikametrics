@@ -1,16 +1,53 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/teikametrics/integrations
 - https://n8n.io/integrations/teikametrics/
 - https://composio.dev/toolkits/teikametrics
 - https://monid.ai/tools/teikametrics
 checked:
+- https://api.nuget.org/v3
 - https://composio.dev/toolkits/teikametrics
+- https://crates.io/api/v1
 - https://monid.ai/tools/teikametrics
 - https://n8n.io/integrations/teikametrics/
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
 - https://zapier.com/apps/teikametrics/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: npm registry
+  partner: npm
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (JavaScript/TypeScript)
+  evidence: https://www.npmjs.com/package/@teikametrics/react-infinite-calendar
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@teikametrics/react-infinite-calendar'
+      version: 2.6.0
+      released: '2024-10-14'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@teikametrics/react-infinite-calendar
+      repo_leg: github-org:teikametrics
+      publisher_leg: email:teikametrics.com
+      matched_by: domain
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
 templates: []
