@@ -34,3 +34,66 @@
     detected: '2026-10-18'
   status: not-a-workflow
   arazzo: null
+- slug: teikametrics-amazon-selling-partner-appstore
+  label: Amazon Selling Partner Appstore
+  partner: amazon-seller-central
+  partner_name: Amazon Selling Partner Appstore
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://sellercentral.amazon.com/selling-partner-appstore/dp/amzn1.sp.solution.ec8513dd-9965-48e4-854d-e6eea82d3bb1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: teikametrics-amazon-ads-partner-directory-technology
+  label: Amazon Ads (partner directory, technology)
+  partner: amazon
+  partner_name: Amazon Ads (partner directory, technology)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://advertising.amazon.com/partners/directory
+  source: edge
+  relationship: platform-app
+  contract_reference:
+    register: Amazon Ads Partner Directory (advertising.amazon.com/partners/directory, GetPartners)
+    registered_name: Teikametrics
+    register_id: amzn1.ads1.ma1.1ohjpd3mfy1smkfg3brdanhz0
+    matched_domain: teikametrics.com
+    matched_by: domain
+    services:
+    - ADVERTISING_EFFECTIVENESS
+    - AUDIENCE_AND_TARGETING
+    - AUDIENCE_MEASUREMENT
+    - AUDIENCE_VERIFICATION
+    - A_PLUS_CONTENT
+    - BUSINESS_AND_MARKETING_INTELLIGENCE_TOOLS
+    - CAMPAIGN_MANAGEMENT
+    - CAMPAIGN_MONITORING
+    - CAMPAIGN_REPORTING
+    - CAMPAIGN_SETUP
+    - CLEAN_ROOM_ANALYTICS
+    - CLEAN_ROOM_DEVELOPER
+    - DATA_INTEGRATION
+    - DETAIL_PAGE_SET_UP
+    - INVENTORY_MANAGEMENT
+    ads_products:
+    - AMAZON_DSP
+    - AMAZON_MARKETING_CLOUD
+    - SPONSORED_BRANDS
+    - SPONSORED_DISPLAY
+    - SPONSORED_PRODUCTS
+    - VIDEO_ADS
+    service_models:
+    - SELF_SERVICE
+    - SERVICE
+    signal_note: listing = participation; accreditation recorded as partner_tier; ads_certifications are Amazon
+      Ads LEARNING certifications held by staff, not product conformance, never certified_products
+    detected_by: sweep-amazon-sp-api-appstore.py
+    detected: '2026-10-21'
+    ads_certifications:
+    - AMAZON_DSP
+    - SPONSORED_ADS
+  status: not-a-workflow
+  arazzo: null
